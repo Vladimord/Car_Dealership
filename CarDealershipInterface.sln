@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealershipInterface", "CarDealershipInterface\CarDealershipInterface.csproj", "{67915575-B31F-41F1-8E36-394B39D42239}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67915575-B31F-41F1-8E36-394B39D42239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67915575-B31F-41F1-8E36-394B39D42239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67915575-B31F-41F1-8E36-394B39D42239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67915575-B31F-41F1-8E36-394B39D42239}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8294F28-A77A-4D0D-ADA6-563AB9370CB0}
+	EndGlobalSection
+EndGlobal

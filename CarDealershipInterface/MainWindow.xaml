@@ -1,0 +1,49 @@
+﻿<Window x:Class="CarDealershipInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarDealershipInterface"
+        mc:Ignorable="d"
+        Title="Car Dealership" Height="450" Width="800">
+    <Grid Margin="10,10,10,10" ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#FF62E0AC" >
+            <Label Content="Car Dealership" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" FontSize="24" FontFamily="Comic Sans MS" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        </Grid>
+        <Grid Grid.Row="1" ShowGridLines="True">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0.5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Margin="10" Grid.Column="1" ShowGridLines="True">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid Margin="60,10,60,10" Grid.Row="2" ShowGridLines="True">
+
+                </Grid>
+            </Grid>
+            <Grid Margin="10" Grid.Column="2" ShowGridLines="True">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid Margin="60,10,60,10" Grid.Row="2" ShowGridLines="True"/>
+
+            </Grid>
+            <Grid Grid.Column="0" Background="#FFD8FFBD" />
+            <Grid Grid.Column="3" Background="#FFD8FFBD" />
+        </Grid>
+    </Grid>
+</Window>
